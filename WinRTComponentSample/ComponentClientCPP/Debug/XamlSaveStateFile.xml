@@ -2,6 +2,6 @@
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\ryota\documents\visual studio 2013\projects\winrtcomponentsample\debug\componentclientcpp\componentclientcpp.winmd" HashGuid="f923b92e-2387-0b9f-8ffb-df0899f11bef" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
-    <ReferenceAssembly PathName="c:\users\ryota\documents\visual studio 2013\projects\winrtcomponentsample\winrtcomponentcs\bin\x86\debug\winrtcomponentcs.winmd" HashGuid="f65c6c5f-2b68-1b14-57a6-824f0cf7b7ad" />
+    <ReferenceAssembly PathName="c:\users\ryota\projects\windowsruntimesample\winrtcomponentsample\winrtcomponentcs\bin\x86\debug\winrtcomponentcs.winmd" HashGuid="f65c6c5f-2b68-1b14-57a6-824f0cf7b7ad" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

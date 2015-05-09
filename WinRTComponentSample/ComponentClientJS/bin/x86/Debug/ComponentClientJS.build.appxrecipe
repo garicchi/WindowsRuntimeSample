@@ -7,50 +7,50 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1eae056e-5ecb-4951-9d79-1cb9ebe5c86c</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\Debug\WinRTComponentCPP\WinRTComponentCPP.winmd">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\Debug\WinRTComponentCPP\WinRTComponentCPP.winmd">
       <PackagePath>WinRTComponentCPP.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\WinRTComponentCS\bin\x86\Debug\WinRTComponentCS.winmd">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\WinRTComponentCS\bin\x86\Debug\WinRTComponentCS.winmd">
       <PackagePath>WinRTComponentCS.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\Debug\WinRTComponentCPP\WinRTComponentCPP.dll">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\Debug\WinRTComponentCPP\WinRTComponentCPP.dll">
       <PackagePath>WinRTComponentCPP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\default.html">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

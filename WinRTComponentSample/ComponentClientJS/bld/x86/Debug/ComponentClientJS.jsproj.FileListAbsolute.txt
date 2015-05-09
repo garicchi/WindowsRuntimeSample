@@ -21,3 +21,26 @@ C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\Compon
 C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\WinRTComponentCS.pri
 C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\ComponentClientJS.jsprojResolveAssemblyReference.cache
 C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\ComponentClientJS.jsproj.GenerateResource.Cache
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\ReverseMap\resources.pri
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\AppxManifest.xml
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\ComponentClientJS.build.appxrecipe
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\WinRTComponentCPP.winmd
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\WinRTComponentCS.winmd
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\WinRTComponentCPP.pdb
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\WinRTComponentCPP.pri
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\WinRTComponentCS.pdb
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bin\x86\Debug\WinRTComponentCS.pri
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\ComponentClientJS.jsprojResolveAssemblyReference.cache
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\ComponentClientJS.jsproj.GenerateResource.Cache
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\priconfig.xml
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\priconfig.xml.intermediate
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\layout.resfiles
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\layout.resfiles.intermediate
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\resources.resfiles
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\resources.resfiles.intermediate
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\pri.resfiles
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\pri.resfiles.intermediate
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\qualifiers.txt
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ryota\Projects\WindowsRuntimeSample\WinRTComponentSample\ComponentClientJS\bld\x86\Debug\ProjectArchitectures.txt

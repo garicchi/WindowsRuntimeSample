@@ -1,0 +1,1 @@
+C:\Users\Ryota\Projects\WindowsRuntimeSample\IAsyncSample\IAsyncSample\IAsyncSample.csproj;neutral

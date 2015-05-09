@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="IAsyncSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IAsyncSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" Margin="100">
+            <TextBlock x:Name="text_status" FontSize="32" />
+            <Button Content="返却値なし、進捗報告なし非同期処理 (IAsyncAction)" x:Name="button_iasyncaction" Click="button_iasyncaction_Click"></Button>
+            <Button Content="返却値なし、進捗報告あり非同期処理 (IAsyncActionWithProgress)" x:Name="button_iasyncactionwithprogress" Click="button_iasyncactionwithprogress_Click"></Button>
+            <Button Content="返却値あり、進捗報告なし非同期処理 (IAsyncOperation)" x:Name="button_iasyncoperation" Click="button_iasyncoperation_Click"></Button>
+            <Button Content="返却値あり、進捗報告あり非同期処理 (IAsyncOperationwithprogress)" x:Name="button_iasyncoperationwidhprogress" Click="button_iasyncoperationwidhprogress_Click"></Button>
+            <Button Content="AsyncTaskキャンセル" x:Name="btn_cancel" Click="btn_cancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
