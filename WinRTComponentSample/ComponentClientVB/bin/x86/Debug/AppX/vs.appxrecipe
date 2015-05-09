@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GARIDUO</Machine>
+    <WindowsUser>Ryota</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>9a83184a-89e2-43ae-a5c6-3eb6f1424b62</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>FDC78B86048B18CB10740FB14B37429749428114FF65BB1D707874BEC6154325</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9a83184a-89e2-43ae-a5c6-3eb6f1424b62_1.0.0.0_x86__6qz4hrymt498e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9a83184a-89e2-43ae-a5c6-3eb6f1424b62_6qz4hrymt498e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9a83184a-89e2-43ae-a5c6-3eb6f1424b62</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ryota</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-09T05:51:49.122</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\bin\x86\Debug\ComponentClientVB.exe">
+      <PackagePath>ComponentClientVB.exe</PackagePath>
+      <Modified>2015-05-09T05:54:15.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\Debug\WinRTComponentCPP\WinRTComponentCPP.winmd">
+      <PackagePath>WinRTComponentCPP.winmd</PackagePath>
+      <Modified>2015-05-09T05:34:51.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\WinRTComponentCS\bin\x86\Debug\WinRTComponentCS.winmd">
+      <PackagePath>WinRTComponentCS.winmd</PackagePath>
+      <Modified>2015-05-09T05:01:35.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\Debug\WinRTComponentCPP\WinRTComponentCPP.dll">
+      <PackagePath>WinRTComponentCPP.dll</PackagePath>
+      <Modified>2015-05-09T05:34:51.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-30T23:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-30T23:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-30T23:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-30T23:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-09T05:01:38.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-05-09T05:51:09.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\bin\x86\Debug\ComponentClientVB.xr.xml">
+      <PackagePath>ComponentClientVB.xr.xml</PackagePath>
+      <Modified>2015-05-09T05:51:09.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-09T05:51:37.962</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

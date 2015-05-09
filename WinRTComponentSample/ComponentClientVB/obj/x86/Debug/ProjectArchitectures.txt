@@ -1,0 +1,2 @@
+C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\ComponentClientVB\ComponentClientVB.vbproj;x86
+C:\Users\Ryota\Documents\Visual Studio 2013\Projects\WinRTComponentSample\WinRTComponentCPP\WinRTComponentCPP.vcxproj;x86
