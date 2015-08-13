@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="AppTemplate.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppTemplate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <SplitView x:Name="splitView" DisplayMode="CompactOverlay" CompactPaneLength="48" IsPaneOpen="{Binding ElementName=paneButton,Path=IsChecked,Mode=TwoWay}" OpenPaneLength="250">
+            
+            <SplitView.Pane>
+                <Grid Background="{StaticResource SplitViewBackgroundBrush}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="48"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="54"/>
+                    </Grid.RowDefinitions>
+                    <Grid Background="{StaticResource ApplicationThemeBrush}">
+                        <ToggleButton x:Name="paneButton" Width="48" Height="48" Grid.Row="0" Style="{StaticResource SplitViewToggleButtonStyle}">
+                            <FontIcon Glyph="{StaticResource SplitViewButtonGlyph}" Foreground="White" />
+                        </ToggleButton>
+                    </Grid>
+
+                    <StackPanel Orientation="Vertical" Grid.Row="1">
+                        <AppBarButton x:Name="appButtonHome" Foreground="White" Icon="Home" Label="ホーム" Style="{StaticResource SplitViewAppBarButtonStyle}" Click="appButtonHome_Click" />
+                        <AppBarButton x:Name="appButtonFavorite" Foreground="White" Icon="OutlineStar" Label="お気に入り" Style="{StaticResource SplitViewAppBarButtonStyle}" Click="appButtonFavorite_Click" />
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Grid.Row="2">
+                        <Rectangle Height="1" Fill="#FF5F5F5F" />
+                        <AppBarButton x:Name="appButtonSetting" Foreground="White" Icon="Setting" Label="設定" Style="{StaticResource SplitViewAppBarButtonStyle}" Click="appButtonSetting_Click" />
+                    </StackPanel>
+                </Grid>
+            </SplitView.Pane>
+            <Frame x:Name="frameContent"></Frame>
+        </SplitView>
+        <AutoSuggestBox x:Name="suggestBoxSearch" HorizontalAlignment="Right" VerticalAlignment="Top" Width="250" QueryIcon="Zoom" PlaceholderText="Search" Margin="0,10,10,0" Height="32" QuerySubmitted="suggestBoxSearch_QuerySubmitted"/>
+        
+    </Grid>
+</Page>
