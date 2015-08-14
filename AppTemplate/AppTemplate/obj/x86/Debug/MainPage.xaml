@@ -8,37 +8,93 @@
     mc:Ignorable="d"                     >
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!-- VisualStateManagerで横幅が小、中、大の3つのStateを定義しています。各StateはAdaptiveTriggerによって自動的に遷移します。 -->
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='2' x:Name="VisualStateGroup">
+                <VisualStateGroup.Transitions>
+                    <VisualTransition GeneratedDuration="0:0:1">
+                        <VisualTransition.GeneratedEasingFunction>
+                            <CubicEase EasingMode="EaseInOut"/>
+                        </VisualTransition.GeneratedEasingFunction>
+                    </VisualTransition>
+                </VisualStateGroup.Transitions>
+                <VisualState x:ConnectionId='3' x:Name="MobileState">
+                    <VisualState.Setters>
+                        <Setter Target="splitView.(SplitView.DisplayMode)" Value="Overlay"/>
+                        <Setter Target="splitView.(SplitView.IsPaneOpen)" Value="False"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:ConnectionId='4' x:Name="NormalState">
+                    <VisualState.Setters>
+                        <Setter Target="splitView.(SplitView.IsPaneOpen)" Value="False"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="400"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:ConnectionId='5' x:Name="WideState">
+                    <VisualState.Setters>
+                        <Setter Target="paneButton.(ToggleButton.IsChecked)" Value="True"/>
+                        <Setter Target="splitView.(SplitView.IsPaneOpen)" Value="True"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Background="{StaticResource ApplicationThemeBrush}" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="48"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="270"/>
+            </Grid.ColumnDefinitions>
+            <!--SplitViewの開閉を行うToglleButton SplitViewのIsOpenPaneプロパティとバインドされているのでボタンを押すとSplitViewが開閉する-->
+            <ToggleButton x:ConnectionId='11' x:Name="paneButton" Width="48" Height="48" Grid.Column="0" Style="{StaticResource SplitViewToggleButtonStyle}" IsChecked="{Binding ElementName=splitView,Path=IsPaneOpen,Mode=TwoWay}">
+                <FontIcon Glyph="{StaticResource SplitViewButtonGlyph}" Foreground="White" />
+            </ToggleButton>
+            <!--検索ボックス-->
+            <AutoSuggestBox x:ConnectionId='12' x:Name="suggestBoxSearch" HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" QueryIcon="Zoom" PlaceholderText="Search" Grid.Column="2" Height="32"                                                 />
 
-        <SplitView x:ConnectionId='2' x:Name="splitView" DisplayMode="CompactOverlay" CompactPaneLength="48" IsPaneOpen="{Binding ElementName=paneButton,Path=IsChecked,Mode=TwoWay}" OpenPaneLength="250">
-            
+        </Grid>
+        <!--SplitView IsOpenPaneとDisplayModeで様々な画面に対応します-->
+        <SplitView x:ConnectionId='6' x:Name="splitView" DisplayMode="CompactInline" CompactPaneLength="48" OpenPaneLength="250" Grid.Row="1">
+            <!--SplitViewのペイン部分-->
             <SplitView.Pane>
                 <Grid Background="{StaticResource SplitViewBackgroundBrush}">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="48"/>
                         <RowDefinition/>
                         <RowDefinition Height="54"/>
                     </Grid.RowDefinitions>
-                    <Grid Background="{StaticResource ApplicationThemeBrush}">
-                        <ToggleButton x:ConnectionId='7' x:Name="paneButton" Width="48" Height="48" Grid.Row="0" Style="{StaticResource SplitViewToggleButtonStyle}">
-                            <FontIcon Glyph="{StaticResource SplitViewButtonGlyph}" Foreground="White" />
-                        </ToggleButton>
-                    </Grid>
 
-                    <StackPanel Orientation="Vertical" Grid.Row="1">
-                        <AppBarButton x:ConnectionId='5' x:Name="appButtonHome" Foreground="White" Icon="Home" Label="ホーム" Style="{StaticResource SplitViewAppBarButtonStyle}"                             />
-                        <AppBarButton x:ConnectionId='6' x:Name="appButtonFavorite" Foreground="White" Icon="OutlineStar" Label="お気に入り" Style="{StaticResource SplitViewAppBarButtonStyle}"                                 />
+                    <!--SplitViewのPaneにあるナビゲーションボタン 特殊なAppBarButtonのStyleを適用している。詳しくはApp.xaml.cs-->
+                    <StackPanel Orientation="Vertical" Grid.Row="0">
+                        <AppBarButton x:ConnectionId='8' x:Name="appButtonHome" Foreground="White" Icon="Home" Label="ホーム" Style="{StaticResource SplitViewAppBarButtonStyle}" Width="Auto"                             />
+                        <AppBarButton x:ConnectionId='9' x:Name="appButtonFavorite" Foreground="White" Icon="OutlineStar" Label="お気に入り" Style="{StaticResource SplitViewAppBarButtonStyle}" Width="Auto"                                 />
 
                     </StackPanel>
 
-                    <StackPanel Orientation="Vertical" Grid.Row="2">
+                    <!--SplitViewのPaneにある設定ボタン-->
+                    <StackPanel Orientation="Vertical" Grid.Row="1">
                         <Rectangle Height="1" Fill="#FF5F5F5F" />
-                        <AppBarButton x:ConnectionId='4' x:Name="appButtonSetting" Foreground="White" Icon="Setting" Label="設定" Style="{StaticResource SplitViewAppBarButtonStyle}"                                />
+                        <AppBarButton x:ConnectionId='7' x:Name="appButtonSetting" Foreground="White" Icon="Setting" Label="設定" Style="{StaticResource SplitViewAppBarButtonStyle}" Width="Auto"                                />
                     </StackPanel>
                 </Grid>
             </SplitView.Pane>
-            <Frame x:ConnectionId='8' x:Name="frameContent"></Frame>
+            
+            <!--このFrameにいろいろなページをNavigateすることでページを切り替える-->
+            <Frame x:ConnectionId='10' x:Name="frameContent"></Frame>
         </SplitView>
-        <AutoSuggestBox x:ConnectionId='3' x:Name="suggestBoxSearch" HorizontalAlignment="Right" VerticalAlignment="Top" Width="250" QueryIcon="Zoom" PlaceholderText="Search" Margin="0,10,10,0" Height="32"                                                 />
+
         
     </Grid>
 </Page>

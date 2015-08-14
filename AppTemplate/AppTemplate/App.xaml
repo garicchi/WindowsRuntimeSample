@@ -7,8 +7,10 @@
     <Application.Resources>
         <x:String x:Key="SplitViewButtonGlyph">&#xE700;</x:String>
         <SolidColorBrush x:Key="SplitViewBackgroundBrush" Color="#FF2C2C2C"/>
-        <SolidColorBrush x:Key="ApplicationThemeBrush" Color="#FF58A850"/>
+        <!--アプリケーションのテーマ色を定義-->
+        <SolidColorBrush x:Key="ApplicationThemeBrush" Color="#FF298FCC"/>
 
+        <!--ToggleButtonやAppBarButtonのStyleを定義している。よくわからない人は気にしてはいけない-->
         <Style x:Key="SplitViewAppBarButtonStyle" TargetType="AppBarButton">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseHighBrush}"/>
@@ -110,8 +112,8 @@
                                         <ColumnDefinition Width="48"/>
                                         <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <ContentPresenter x:Name="Content" AutomationProperties.AccessibilityView="Raw" Content="{TemplateBinding Icon}" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="Stretch" Height="48" Margin="0" VerticalAlignment="Center"/>
-                                    <TextBlock x:Name="TextLabel" Foreground="{TemplateBinding Foreground}" FontSize="18" FontFamily="{TemplateBinding FontFamily}" Margin="20,0,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="{TemplateBinding Label}" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                    <ContentPresenter x:Name="Content" AutomationProperties.AccessibilityView="Raw" Content="{TemplateBinding Icon}" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="Stretch" Height="48" Margin="0"/>
+                                    <TextBlock x:Name="TextLabel" Foreground="{TemplateBinding Foreground}" FontSize="16" FontFamily="{TemplateBinding FontFamily}" Margin="20,0,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="{TemplateBinding Label}" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"/>
                                 </Grid>
                             </StackPanel>
                             <TextBlock x:Name="OverflowTextLabel" Foreground="{TemplateBinding Foreground}" FontSize="15" FontFamily="{TemplateBinding FontFamily}" HorizontalAlignment="Stretch" Margin="12,11,0,13" TextAlignment="Left" TextWrapping="NoWrap" Text="{TemplateBinding Label}" TextTrimming="Clip" Visibility="Collapsed" VerticalAlignment="Center"/>
