@@ -1,1 +1,0 @@
-C:\Users\garicchi\Projects\Repository\Windows\WindowsRuntimeSample\AppTemplate\AppTemplate\AppTemplate.csproj;x86
