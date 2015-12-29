@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="ja-JP">
+    <CommandPrefix>サンプル</CommandPrefix>
+    <Example>サンプル　ウインドウ起動</Example>
+    <Command Name="Command1">
+      <Example>サンプル　ウインドウ起動</Example>
+      <ListenFor>ウインドウ[起動]{number}</ListenFor>
+      <Feedback>認識しました</Feedback>
+      <Navigate />
+    </Command>
+    <PhraseList Label="number">
+      <Item> 1 </Item>
+      <Item> 2 </Item>
+    </PhraseList>
+  </CommandSet>
+</VoiceCommands>
